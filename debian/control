@@ -1,0 +1,15 @@
+Source: django-underpants
+Section: python
+Priority: optional
+Standards-Version: 3.9.5
+Maintainer: Neil Williams <neil@reddit.com>
+Build-Depends: debhelper(>= 8.0.0),
+               python-all (>= 2.6.6-3),
+               python-setuptools (>=0.6b3)
+X-Python-Version: 2.7
+Homepage: https://github.com/reddit/django-underpants
+
+Package: python-django-underpants
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Helpers for Django+Underpants single-signon
